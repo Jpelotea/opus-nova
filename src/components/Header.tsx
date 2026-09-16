@@ -13,9 +13,9 @@ export function Header() {
           to="/"
           className="flex items-center gap-2.5 text-parchment"
         >
-          <WaypointMark />
+          <OpusNovaMark />
           <span className="font-display text-xl italic tracking-tight">
-            Waypoint
+            OpusNova
           </span>
         </Link>
 
@@ -42,7 +42,7 @@ export function Header() {
   )
 }
 
-function WaypointMark() {
+function OpusNovaMark() {
   return (
     <svg
       width="26"
