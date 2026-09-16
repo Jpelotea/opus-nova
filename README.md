@@ -1,6 +1,6 @@
-# Waypoint
+# OpusNova
 
-Waypoint is an AI job application copilot. It reads a job posting,
+OpusNova is an AI job application copilot. It reads a job posting,
 checks it against a candidate's verified profile — résumé, work history,
 skills, and portfolio — and returns a scored fit analysis, tailored
 application materials, and a tracker for the pipeline that follows.
