@@ -14,12 +14,12 @@ export const Route = createRootRoute({
         content: 'width=device-width, initial-scale=1',
       },
       {
-        title: 'Waypoint — AI job application copilot',
+        title: 'OpusNova — AI job application copilot',
       },
       {
         name: 'description',
         content:
-          'Waypoint analyzes job fit against your verified profile, drafts tailored application materials, and tracks every application through to a decision.',
+          'OpusNova analyzes job fit against your verified profile, drafts tailored application materials, and tracks every application through to a decision.',
       },
     ],
     links: [
