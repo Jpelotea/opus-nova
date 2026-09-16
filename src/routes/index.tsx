@@ -94,7 +94,7 @@ function Home() {
               Apply with what&rsquo;s <em className="italic text-brass-bright">actually true</em> about you.
             </h1>
             <p className="mt-6 max-w-lg text-lg text-parchment-dim">
-              Waypoint reads a job posting against your verified résumé, work
+              OpusNova reads a job posting against your verified résumé, work
               history, and portfolio — surfaces the real fit, drafts materials
               grounded in your record, and tracks the application from first
               click to final answer.
@@ -171,7 +171,7 @@ function Home() {
 
       <section className="mx-auto max-w-5xl px-6 py-28">
         <h2 className="font-display text-3xl tracking-tight text-ink sm:text-4xl">
-          How Waypoint actually works
+          How OpusNova actually works
         </h2>
         <div className="mt-16 space-y-14">
           {STEPS.map((step, i) => (
@@ -200,7 +200,7 @@ function Home() {
           </h2>
           <div className="space-y-5 text-ink/70">
             <p>
-              Every strength Waypoint surfaces points back to a specific line
+              Every strength OpusNova surfaces points back to a specific line
               in the verified profile: a role, a dated résumé bullet, a named
               portfolio project. If a job asks for something that isn&rsquo;t
               on file, it shows up as a gap, not a paraphrase.
