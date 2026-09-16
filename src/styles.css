@@ -1,0 +1,75 @@
+@import "tailwindcss" source("../");
+
+@theme {
+  --font-display: "Fraunces", "Iowan Old Style", "Palatino Linotype", serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", sans-serif;
+  --font-data: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+
+  --color-ink: #16140f;
+  --color-ink-soft: #211c14;
+  --color-ink-raised: #2a2419;
+
+  --color-parchment: #f3ecdd;
+  --color-parchment-dim: #b8ae98;
+
+  --color-brass: #c68a46;
+  --color-brass-bright: #e0a862;
+
+  --color-sage: #6e8b7a;
+  --color-sage-deep: #4c6857;
+
+  --color-clay: #b5573a;
+  --color-clay-deep: #8f4229;
+
+  --color-paper: #f6f2e9;
+  --color-paper-raised: #ece4d2;
+  --color-paper-line: #d9cdb2;
+}
+
+body {
+  @apply m-0 bg-paper text-ink font-body;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: var(--font-data);
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-rise {
+  animation: rise-in 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes pulse-soft {
+  0%,
+  100% {
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 1.6s ease-in-out infinite;
+}
+
+.grain-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.5;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.35 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+}
