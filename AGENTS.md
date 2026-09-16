@@ -4,7 +4,7 @@ This document orients AI agents and developers working on this codebase.
 
 ## Project overview
 
-Waypoint is an AI job application copilot. It analyzes a job posting
+OpusNova is an AI job application copilot. It analyzes a job posting
 against a candidate's verified profile (résumé, work history, skills,
 portfolio), scores the fit, drafts tailored application materials, and
 tracks each application through its pipeline.
