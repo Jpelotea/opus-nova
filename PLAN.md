@@ -1,4 +1,4 @@
-# Waypoint — product roadmap
+# OpusNova — product roadmap
 
 Milestone 1 shipped the branded product surface: the landing page, the
 job-fit analysis screen, and the application tracker, all running on
